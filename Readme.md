@@ -8,9 +8,10 @@ Deskripsi Program : Program ini adalah sebuah game sederhana berformat python da
 Cara menjalankan Container :
 
 1. Pertama meng-clone git dari link https://github.com/xamox/pygame
-2. Setelah itu membuka terminal python dengan menekan "ctrl+shift+p" dan mengetik terminal python, nanti akan ada pilihannya.
-3. Setelah membuat file Dockerfile dengan mengetik "docker build -t (nama image) . "
-4. Masukkan kode berikut ke dalam Dockerfile :
+2. Pastikan aplikasi Docker telah menyala
+3. Setelah itu membuka terminal python dengan menekan "ctrl+shift+p" dan mengetik terminal python, nanti akan ada pilihannya.
+4. Setelah membuat file Dockerfile dengan mengetik "docker build -t (nama image) . "
+5. Masukkan kode berikut ke dalam Dockerfile :
 
                 FROM python:slim
 
@@ -20,5 +21,5 @@ Cara menjalankan Container :
 
                 CMD [ "python", "examples/aliens.py"]
 
-5. Pada file Dockerfile, klik kanan pada mouse dan build image dari file tersebut
-6. Setelah itu pada terminal, input "docker run (nama image yang telah di build)"
+6. Pada file Dockerfile, klik kanan pada mouse dan build image dari file tersebut
+7. Setelah itu pada terminal, input "docker run (nama image yang telah di build)"

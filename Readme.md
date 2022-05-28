@@ -23,3 +23,5 @@ Cara menjalankan Container :
 
 6. Pada file Dockerfile, klik kanan pada mouse dan build image dari file tersebut
 7. Setelah itu pada terminal, input "docker run (nama image yang telah di build)"
+
+https://youtu.be/jCcJ0pEslB8
